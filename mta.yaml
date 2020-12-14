@@ -1,0 +1,17 @@
+_schema-version: "3.2"
+ID: CAPEX_WF_WorkflowProject
+version: 0.0.1
+modules:
+  - name: CAPEX_WF_Workflow
+    type: com.sap.application.content
+    path: CAPEX_WF_Workflow
+    requires:
+      - name: workflow_mta
+        parameters:
+          content-target: true
+resources:
+  - name: workflow_mta
+    parameters:
+      service-plan: standard
+      service: workflow
+    type: org.cloudfoundry.existing-service
