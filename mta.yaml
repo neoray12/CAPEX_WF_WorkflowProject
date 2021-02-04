@@ -14,4 +14,4 @@ resources:
     parameters:
       service-plan: standard
       service: workflow
-    type: org.cloudfoundry.existing-service
+    type: org.cloudfoundry.managed-service

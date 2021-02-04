@@ -47,7 +47,7 @@
 			"subject": "Capex Approval for ${context.RequestId}",
 			"priority": "MEDIUM",
 			"isHiddenInLogForParticipant": false,
-			"userInterface": "sapui5://sapwfdemoCAPEX_WF_CustomTaskUI/sap.wf.demo.CAPEX_WF_CustomTaskUI",
+			"userInterface": "sapui5://capexwfcustomtaskui.sapwfdemoCAPEX_WF_CustomTaskUI/sap.wf.demo.CAPEX_WF_CustomTaskUI",
 			"recipientUsers": "${info.startedBy}",
 			"id": "usertask1",
 			"name": "Capex Approval "
